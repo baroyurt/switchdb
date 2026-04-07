@@ -1,0 +1,457 @@
+2026-04-07 22:18:57 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 8656
+2026-04-07 22:18:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-04-07 22:18:57 0 [Note] InnoDB: Uses event mutexes
+2026-04-07 22:18:57 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2026-04-07 22:18:57 0 [Note] InnoDB: Number of pools: 1
+2026-04-07 22:18:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2026-04-07 22:18:57 0 [Note] InnoDB: Initializing buffer pool, total size = 24G, instances = 8, chunk size = 128M
+2026-04-07 22:18:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-04-07 22:18:58 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=111796948039
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_1.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_1` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_2.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_2` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_3.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_3` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_4.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_4` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_5.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_5` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_6.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_6` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_2.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_2` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_3.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_3` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_4.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_4` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_6.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_6` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_1.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_1` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_2.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_2` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_3.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_3` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_4.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_4` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_5.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_5` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_6.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_6` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_BEING_DELETED.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_BEING_DELETED``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_BEING_DELETED` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_BEING_DELETED_CACHE.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_BEING_DELETED_CACHE``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_BEING_DELETED_CACHE` because it could not be opened.
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2026-04-07 22:18:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_DELETED_CACHE.ibd' OS error: 71
+2026-04-07 22:18:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_DELETED_CACHE``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:18:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_DELETED_CACHE` because it could not be opened.
+2026-04-07 22:18:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2026-04-07 22:18:59 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-04-07 22:18:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-04-07 22:18:59 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-04-07 22:18:59 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2026-04-07 22:18:59 0 [Note] InnoDB: Waiting for purge to start
+2026-04-07 22:18:59 0 [Note] InnoDB: 10.4.32 started; log sequence number 111796948048; transaction id 28587228
+2026-04-07 22:18:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2026-04-07 22:18:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2026-04-07 22:18:59 0 [Note] Server socket created on IP: '::'.
+2026-04-07 22:19:58 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 7548
+2026-04-07 22:19:58 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-04-07 22:19:58 0 [Note] InnoDB: Uses event mutexes
+2026-04-07 22:19:58 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2026-04-07 22:19:58 0 [Note] InnoDB: Number of pools: 1
+2026-04-07 22:19:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2026-04-07 22:19:58 0 [Note] InnoDB: Initializing buffer pool, total size = 24G, instances = 8, chunk size = 128M
+2026-04-07 22:19:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-04-07 22:19:58 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=111796948057
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_1.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_1` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_2.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_2` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_3.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_3` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_4.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_4` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_5.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_5` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000853_INDEX_6.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000853_INDEX_6` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_1.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_1` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_2.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_2` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_3.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_3` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_4.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_4` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_5.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_5` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_000000000000085a_INDEX_6.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_000000000000085a_INDEX_6` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_1.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_1` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_2.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_2` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_3.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_3` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_4.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_4` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_5.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_5` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_0000000000000861_INDEX_6.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_0000000000000861_INDEX_6` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_BEING_DELETED.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_BEING_DELETED``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_BEING_DELETED` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_BEING_DELETED_CACHE.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_BEING_DELETED_CACHE``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_BEING_DELETED_CACHE` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_CONFIG.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_CONFIG``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_CONFIG` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_DELETED.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_DELETED``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_DELETED` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\FTS_0000000000000421_DELETED_CACHE.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`FTS_0000000000000421_DELETED_CACHE``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`FTS_0000000000000421_DELETED_CACHE` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\acknowledged_port_mac.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`acknowledged_port_mac``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`acknowledged_port_mac` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\activity_log.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`activity_log``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`activity_log` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\alarm_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`alarm_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`alarm_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\alarm_severity_config.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`alarm_severity_config``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`alarm_severity_config` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\alarms.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`alarms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`alarms` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\connection_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`connection_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`connection_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\device_polling_data.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`device_polling_data``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`device_polling_data` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\fiber_panels.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`fiber_panels``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`fiber_panels` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\fiber_ports.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`fiber_ports``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`fiber_ports` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\hub_sw_port_connections.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`hub_sw_port_connections``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`hub_sw_port_connections` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\mac_address_tracking.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`mac_address_tracking``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`mac_address_tracking` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\mac_device_import_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`mac_device_import_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`mac_device_import_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\mac_device_registry.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`mac_device_registry``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`mac_device_registry` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\maintenance_windows.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`maintenance_windows``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`maintenance_windows` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\migration_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`migration_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`migration_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\patch_panels.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`patch_panels``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`patch_panels` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\patch_ports.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`patch_ports``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`patch_ports` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\port_change_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`port_change_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`port_change_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\port_snapshot.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`port_snapshot``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`port_snapshot` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\port_status_data.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`port_status_data``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`port_status_data` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\port_traffic_history.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`port_traffic_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`port_traffic_history` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\ports.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`ports``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`ports` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\rack_devices.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`rack_devices``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`rack_devices` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\racks.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`racks``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`racks` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\snmp_config.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`snmp_config``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`snmp_config` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\snmp_core_ports.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`snmp_core_ports``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`snmp_core_ports` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\snmp_devices.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`snmp_devices``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`snmp_devices` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\snmp_uplink_ports.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`snmp_uplink_ports``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`snmp_uplink_ports` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\switches.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`switches``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`switches` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\users.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`users` because it could not be opened.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\switchdb\vlan_names.ibd' OS error: 203
+2026-04-07 22:19:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``switchdb`.`vlan_names``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2026-04-07 22:19:59 0 [Warning] InnoDB: Ignoring tablespace for `switchdb`.`vlan_names` because it could not be opened.
+2026-04-07 22:19:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2026-04-07 22:19:59 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-04-07 22:19:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-04-07 22:19:59 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-04-07 22:19:59 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2026-04-07 22:19:59 0 [Note] InnoDB: Waiting for purge to start
+2026-04-07 22:19:59 0 [Note] InnoDB: 10.4.32 started; log sequence number 111796948066; transaction id 28587228
+2026-04-07 22:19:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2026-04-07 22:19:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2026-04-07 22:19:59 0 [Note] Server socket created on IP: '::'.
