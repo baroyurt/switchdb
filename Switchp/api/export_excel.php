@@ -1,0 +1,184 @@
+<?php
+require_once __DIR__ . '/../db.php';
+require_once __DIR__ . '/../auth.php';
+
+$auth = new Auth($conn);
+$auth->requireLogin();
+// Release PHP session lock so the download doesn't block other concurrent
+// PHP requests that are waiting for the session (e.g. iframes in admin.php).
+session_write_close();
+
+$type = isset($_GET['type']) ? trim($_GET['type']) : 'switches';
+$allowed = ['switches', 'racks', 'panels', 'all'];
+if (!in_array($type, $allowed)) {
+    http_response_code(400);
+    exit('Geçersiz tür.');
+}
+
+// Output a CSV file
+function outputCsv($filename, array $rows) {
+    // Strip any characters that could break the Content-Disposition header value
+    $filename = preg_replace('/[^A-Za-z0-9_\-\.]/', '_', $filename);
+    header('Content-Type: text/csv; charset=utf-8');
+    header('Content-Disposition: attachment; filename="' . $filename . '"');
+    header('Cache-Control: no-cache, no-store, must-revalidate');
+    header('Pragma: no-cache');
+    header('Expires: 0');
+
+    $out = fopen('php://output', 'w');
+    // UTF-8 BOM so Excel recognises encoding
+    fwrite($out, "\xEF\xBB\xBF");
+    foreach ($rows as $row) {
+        fputcsv($out, $row, ';');
+    }
+    fclose($out);
+}
+
+// ─── Switches ─────────────────────────────────────────────────────────────
+function getSwitchRows($conn) {
+    $rows = [['ID', 'Ad', 'Marka', 'Model', 'Port Sayısı', 'IP Adresi', 'Durum', 'Rack', 'Rack Konum']];
+    $res = $conn->query("
+        SELECT s.id, s.name, s.brand, s.model, s.ports, s.ip, s.status,
+               r.name AS rack_name, r.location AS rack_location
+        FROM switches s
+        LEFT JOIN racks r ON s.rack_id = r.id
+        ORDER BY s.name
+    ");
+    if ($res) {
+        while ($row = $res->fetch_assoc()) {
+            $rows[] = [
+                $row['id'], $row['name'], $row['brand'], $row['model'],
+                $row['ports'], $row['ip'], $row['status'],
+                $row['rack_name'] ?? '', $row['rack_location'] ?? ''
+            ];
+        }
+    }
+    return $rows;
+}
+
+// ─── Racks ────────────────────────────────────────────────────────────────
+function getRackRows($conn) {
+    $rows = [['ID', 'Ad', 'Konum', 'Slot Sayısı', 'Açıklama']];
+    $res = $conn->query("SELECT id, name, location, slots, description FROM racks ORDER BY name");
+    if ($res) {
+        while ($row = $res->fetch_assoc()) {
+            $rows[] = [$row['id'], $row['name'], $row['location'], $row['slots'], $row['description'] ?? ''];
+        }
+    }
+    return $rows;
+}
+
+// ─── Panels (Patch + Fiber) ────────────────────────────────────────────────
+function getPanelRows($conn) {
+    $rows = [['Tür', 'ID', 'Harf', 'Rack', 'Rack Konum', 'Port Sayısı', 'Açıklama']];
+    $data = [];
+
+    // Patch panels
+    $res = $conn->query("
+        SELECT 'Patch Panel' AS panel_type, pp.id, pp.panel_letter,
+               r.name AS rack_name, r.location AS rack_location,
+               pp.total_ports AS port_count, pp.description
+        FROM patch_panels pp
+        LEFT JOIN racks r ON pp.rack_id = r.id
+    ");
+    if ($res) {
+        while ($row = $res->fetch_assoc()) {
+            $data[] = $row;
+        }
+    }
+
+    // Fiber panels
+    $res2 = $conn->query("
+        SELECT 'Fiber Panel' AS panel_type, fp.id, fp.panel_letter,
+               r.name AS rack_name, r.location AS rack_location,
+               fp.total_fibers AS port_count, fp.description
+        FROM fiber_panels fp
+        LEFT JOIN racks r ON fp.rack_id = r.id
+    ");
+    if ($res2) {
+        while ($row = $res2->fetch_assoc()) {
+            $data[] = $row;
+        }
+    }
+
+    // Sort by rack name then panel letter in PHP to avoid UNION ORDER BY issues
+    usort($data, function($a, $b) {
+        $rackCmp = strcmp($a['rack_name'] ?? '', $b['rack_name'] ?? '');
+        if ($rackCmp !== 0) return $rackCmp;
+        return strcmp($a['panel_letter'] ?? '', $b['panel_letter'] ?? '');
+    });
+
+    foreach ($data as $row) {
+        $rows[] = [
+            $row['panel_type'], $row['id'], $row['panel_letter'],
+            $row['rack_name'] ?? '', $row['rack_location'] ?? '',
+            $row['port_count'] ?? '', $row['description'] ?? ''
+        ];
+    }
+    return $rows;
+}
+
+// ─── Ports ────────────────────────────────────────────────────────────────
+function getPortRows($conn) {
+    $rows = [['Switch', 'Port No', 'Tür', 'Cihaz', 'IP', 'MAC', 'Aktif']];
+    $res = $conn->query("
+        SELECT s.name AS switch_name, p.port_no, p.type, p.device, p.ip, p.mac,
+               CASE WHEN (p.ip IS NOT NULL AND p.ip != '') OR (p.mac IS NOT NULL AND p.mac != '')
+                    OR (p.device IS NOT NULL AND p.device != '' AND p.device != 'BOŞ')
+                    THEN 'Evet' ELSE 'Hayır' END AS is_active
+        FROM ports p
+        LEFT JOIN switches s ON p.switch_id = s.id
+        ORDER BY s.name, p.port_no
+    ");
+    if ($res) {
+        while ($row = $res->fetch_assoc()) {
+            $rows[] = [
+                $row['switch_name'] ?? '', $row['port_no'], $row['type'],
+                $row['device'], $row['ip'], $row['mac'], $row['is_active']
+            ];
+        }
+    }
+    return $rows;
+}
+
+// ─── Dispatch ─────────────────────────────────────────────────────────────
+$date = date('Ymd_His');  // used in all filenames; date() output contains only safe chars
+
+// Clear any output that was buffered by db.php's ob_start() before sending file headers
+while (ob_get_level() > 0) { ob_end_clean(); }
+
+if ($type === 'switches') {
+    outputCsv('switches_' . $date . '.csv', getSwitchRows($conn));
+} elseif ($type === 'racks') {
+    outputCsv('racks_' . $date . '.csv', getRackRows($conn));
+} elseif ($type === 'panels') {
+    outputCsv('panels_' . $date . '.csv', getPanelRows($conn));
+} elseif ($type === 'all') {
+    // Produce one multi-section CSV
+    header('Content-Type: text/csv; charset=utf-8');
+    header('Content-Disposition: attachment; filename="export_all_' . $date . '.csv"');
+    header('Cache-Control: no-cache, no-store, must-revalidate');
+    header('Pragma: no-cache');
+    header('Expires: 0');
+
+    $out = fopen('php://output', 'w');
+    fwrite($out, "\xEF\xBB\xBF");
+
+    fputcsv($out, ['=== SWITCHLER ==='], ';');
+    foreach (getSwitchRows($conn) as $row) fputcsv($out, $row, ';');
+
+    fputcsv($out, [], ';');
+    fputcsv($out, ['=== RACKLER ==='], ';');
+    foreach (getRackRows($conn) as $row) fputcsv($out, $row, ';');
+
+    fputcsv($out, [], ';');
+    fputcsv($out, ['=== PANELLER ==='], ';');
+    foreach (getPanelRows($conn) as $row) fputcsv($out, $row, ';');
+
+    fputcsv($out, [], ';');
+    fputcsv($out, ['=== PORTLAR ==='], ';');
+    foreach (getPortRows($conn) as $row) fputcsv($out, $row, ';');
+
+    fclose($out);
+}
+?>

@@ -1,0 +1,1 @@
+[27-Mar-2026 08:15:11 Europe/Berlin] PHP Warning:  Undefined property: mysqli::$in_transaction in C:\xampp\htdocs\Switchp\saveFiberPanel.php on line 208
