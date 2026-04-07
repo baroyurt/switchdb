@@ -1,0 +1,37 @@
+# MySQL / InnoDB binary data files — do NOT commit these
+switchdb/*.ibd
+switchdb/*.MYD
+switchdb/*.MYI
+switchdb/*.frm
+switchdb/db.opt
+
+# Root-level stray .ibd files
+*.ibd
+
+# MySQL dump (large binary — use a secure backup tool instead)
+*.sql
+
+# Log files
+*.log
+Switchp/logs/*.log
+Switchp/logs/*.json
+Switchp/fiber_panel_errors.log
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+Switchp/snmp_worker/__pycache__/
+Switchp/snmp_worker/core/__pycache__/
+Switchp/snmp_worker/models/__pycache__/
+Switchp/snmp_worker/services/__pycache__/
+Switchp/snmp_worker/utils/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
