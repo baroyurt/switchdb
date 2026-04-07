@@ -10,6 +10,8 @@ switchdb/db.opt
 
 # MySQL dump (large binary — use a secure backup tool instead)
 *.sql
+# Keep the fresh-install schema script
+!schema.sql
 
 # Log files
 *.log
